@@ -13,3 +13,21 @@ Loggy is a simple testing project for playing with Java 8.  It's geared around t
 * Aggregation and calculations of data in the log file (e.g. basic statistics, sorting, filtering, etc. etc.)
 * Mechanisms for reading file(s)
 * Mechanisms for parallelizing operations (may want to grab some much larger datasets to demo this)
+
+
+## Things to cover yet:
+
+* More complex aggregation/stream operations
+* Making the whole thing run on streams, not lists etc.
+* Forking and joining (parallel streams)
+* DateTime:
+	* Date math
+	* Time zones
+	* Clock
+	* Timeline
+* try-with-resources
+* Diamond operator
+* default methods
+* functional interfaces (SAMs)
+* Type annotations
+
